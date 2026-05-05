@@ -1,8 +1,44 @@
-# 📈 Chapter 1: Regression
+<div align="center">
 
-> **Predict the future with data — learn how machines learn to estimate continuous values.**
+<h1>📈 Chapter 1: Regression</h1>
 
-This is the first chapter of the **Machine Learning Fundamentals** track. By the end of this chapter, you will understand what regression is, how different algorithms solve it, and most importantly — the **math behind the magic**.
+<p><strong>Predict the future with data — learn how machines estimate continuous values.</strong></p>
+
+<p><em>Part of the <a href="../../README.md">Hands-on AI Tutorial</a> · Machine Learning Fundamentals Track</em></p>
+
+<br/>
+
+[![Track](https://img.shields.io/badge/Track-ML%20Fundamentals-blueviolet?style=flat-square)]()
+[![Chapter](https://img.shields.io/badge/Chapter-1%20of%205-blue?style=flat-square)]()
+[![Difficulty](https://img.shields.io/badge/Level-Beginner%20Friendly-brightgreen?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)]()
+
+<br/>
+
+| 🧮 Algorithms | 📊 Datasets | 📏 Metrics | 📓 Notebooks |
+|:-------------:|:-----------:|:----------:|:------------:|
+| **4** | **3** | MSE · R² | **1** |
+
+<br/>
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/-XGBoost-189AB4?style=flat-square)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+<br/>
+
+**[🧩 What is Regression?](#-what-is-regression-for-beginners)** · **[🧮 Algorithms](#-algorithms-covered)** · **[📊 Datasets](#-datasets)** · **[🚀 How to Run](#-how-to-run)** · **[🗺️ Learning Path](#️-learning-path-for-this-chapter)**
+
+<br/>
+
+---
+
+> *"You don't understand a regression algorithm until you've implemented the Normal Equation by hand."*
+
+</div>
 
 ---
 
