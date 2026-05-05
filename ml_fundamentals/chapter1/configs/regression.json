@@ -8,7 +8,7 @@
             },
             {
                 "name": "Life Expectancy",
-                "path": "ml_fundamentals/chapter1/data/Life Expectancy Data.csv",
+                "path": "ml_fundamentals/chapter1/data/LifeExpectancyData.csv",
                 "target": ""
             },
             {
