@@ -16,9 +16,9 @@
 
 <br/>
 
-| 📚 Chapters | 🧠 Tracks | 🔢 Algorithms | 🎯 Audience |
-|:-----------:|:---------:|:-------------:|:-----------:|
-| **5+** | **2** | **10+** | Beginners → Intermediates |
+| 📚 Chapters | 🧠 Tracks | 🔢 Algorithms |
+|:-----------:|:---------:|:-------------:|
+| **5+** | **2** | **10+** |
 
 <br/>
 
