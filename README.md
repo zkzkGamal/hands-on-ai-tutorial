@@ -66,7 +66,7 @@ Classical machine learning — the building blocks of all AI.
 | Chapter | Topic | What You'll Build |
 |---|---|---|
 | **Chapter 1** | [📈 Regression](ml_fundamentals/chapter1/README.md) | Predict continuous values (house prices, life expectancy) |
-| **Chapter 2** | 🏷️ Classification *(coming soon)* | Categorize data (spam detection, disease diagnosis) |
+| **Chapter 2** | [🏷️ Classification](ml_fundamentals/chapter2/README.md) | Categorize data (spam detection, disease diagnosis) |
 | **Chapter 3** | 🔵 Clustering *(coming soon)* | Group unlabeled data (customer segmentation) |
 
 ### 🧠 Track 2: Deep Learning (`deep_learning/`)
@@ -146,7 +146,7 @@ Hands-on-AI-Tutorial/
 │   │   ├── results/                ← Reports and plots generated after training
 │   │   ├── src/                    ← From-scratch Python implementations
 │   │   └── README.md               ← Chapter guide
-│   ├── chapter2/                   ← Classification (🔜 Coming soon)
+│   ├── chapter2/                   ← Classification (✅ Active)
 │   └── chapter3/                   ← Clustering (🔜 Coming soon)
 │
 └── deep_learning/                  ← Deep Learning track
@@ -165,7 +165,11 @@ Hands-on-AI-Tutorial/
    ├── Go deeper: docs/ (math + implementation guides)
    └── Run: src/ scripts directly
 
-2. Chapter 2 — Classification (coming soon)
+2. Chapter 2 — Classification
+   ├── Read: ml_fundamentals/chapter2/README.md
+   ├── Explore: notebooks/Classification.ipynb
+   └── Run: src/ scripts directly
+
 3. Chapter 3 — Clustering (coming soon)
 4. Chapter 4 — NLP (coming soon)
 5. Chapter 5 — Computer Vision (coming soon)

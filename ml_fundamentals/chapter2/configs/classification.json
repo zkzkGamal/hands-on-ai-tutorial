@@ -1,0 +1,113 @@
+{
+    "datasets": 
+        [
+            {
+                "name": "Diabetes Prediction",
+                "path": "ml_fundamentals/chapter2/data/diabetes.csv",
+                "target": "Outcome"
+            },
+            {
+                "name": "Heart Disease",
+                "path": "ml_fundamentals/chapter2/data/heart.csv",
+                "target": "target"
+            },
+            {
+                "name":"Iris Dataset",
+                "path": "ml_fundamentals/chapter2/data/iris.csv",
+                "target": "Species"
+            }
+        ],
+    "models": {
+        "Logistic Regression": 
+            {
+                "algorithm": "LogisticRegression",
+                "parameters": {
+                    "fit_intercept": true,
+                    "n_jobs": -1,
+                    "max_iter": 1000
+                }
+            },
+        "K-Nearest Neighbors Classifier": {
+            "algorithm": "KNeighborsClassifier",
+            "parameters": {
+                "n_neighbors": 5,
+                "weights": "uniform",
+                "p": 2,
+                "n_jobs": -1
+            }
+        },
+        "Random Forest Classifier": {
+            "algorithm": "RandomForestClassifier",
+            "parameters": {
+                "n_estimators": 100,
+                "max_depth": 10,
+                "n_jobs": -1
+            }
+        },
+        "Support Vector Classifier": {
+            "algorithm": "SVC",
+            "parameters": {
+                "kernel": "rbf",
+                "C": 1.0,
+                "degree": 3,
+                "gamma": 0.1,
+                "max_iter": 50,
+                "coef0": 0.001
+            }
+        },
+        "XGBoost Classifier": {
+            "algorithm": "XGBClassifier",
+            "parameters": {
+                "n_estimators": 100,
+                "max_depth": 10,
+                "n_jobs": -1
+            }
+        }
+    },
+    "metrics": {
+        "Accuracy": "accuracy_score",
+        "Precision": "precision_score",
+        "Recall": "recall_score",
+        "F1 Score": "f1_score",
+        "ROC AUC": "roc_auc_score"
+    },
+    "splits": {
+        "train_test_split": {
+            "test_size": 0.2,
+            "random_state": 42
+        },
+        "kfold": {
+            "n_splits": 5,
+            "shuffle": true,
+            "random_state": 42
+        }
+    },
+    "reports": {
+        "csv": {
+            "dir": "ml_fundamentals/chapter2/results",
+            "name": "classification_report"
+        },
+        "json": {
+            "dir": "ml_fundamentals/chapter2/results",
+            "name": "classification_report"
+        }
+    },
+    "saved_models": {
+        "dir": "ml_fundamentals/chapter2/models",
+        "names": {
+            "Logistic Regression": "logreg.pkl",
+            "K-Nearest Neighbors Classifier": "knn.pkl",
+            "Random Forest Classifier": "rf.pkl",
+            "Support Vector Classifier": "svm.pkl",
+            "XGBoost Classifier": "xgb.pkl"
+        }
+    },
+    "plots": {
+        "dir": "ml_fundamentals/chapter2/plots",
+        "names": {
+            "confusion_matrix": "confusion_matrix",
+            "roc_auc": "roc_auc",
+            "classification_report": "classification_report"
+        }
+    }
+}
