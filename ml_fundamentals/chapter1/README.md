@@ -299,7 +299,7 @@ Step 5: Experiment!
 
 Once you're comfortable with regression, move on to:
 
-**→ Chapter 2: Classification** *(coming soon)*
+**→ Chapter 2: Classification**
 
 You'll learn how to predict *categories* instead of continuous numbers — like predicting whether an email is spam or not.
 

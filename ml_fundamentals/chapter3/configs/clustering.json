@@ -1,0 +1,108 @@
+{
+    "datasets": [
+        {
+            "name": "glass dataset",
+            "path": "https://archive.ics.uci.edu/ml/machine-learning-databases/glass/glass.data",
+            "target": ""
+        },
+        {
+            "name": "pinguins dataset",
+            "path": "ml_fundamentals/chapter3/data/penguins.csv",
+            "target": "species"
+        },
+        {
+            "name": "seed dataset",
+            "path": "ml_fundamentals/chapter3/data/seed_dataset.csv",
+            "target": ""
+        }
+    ],
+     "splits": {
+        "train_test_split": {
+            "test_size": 0.2,
+            "random_state": 42
+        },
+        "kfold": {
+            "n_splits": 5,
+            "shuffle": true,
+            "random_state": 42
+        }
+    },
+    "models": {
+        "K-Means Clustering": {
+            "algorithm": "KMeans",
+            "parameters": {
+                "n_clusters": 3,
+                "init": "k-means++",
+                "n_init": 10,
+                "max_iter": 300,
+                "random_state": 42
+            }
+        },
+        "Mini-Batch K-Means Clustering": {
+            "algorithm": "MiniBatchKMeans",
+            "parameters": {
+                "n_clusters": 3,
+                "init": "k-means++",
+                "n_init": 10,
+                "max_iter": 300,
+                "random_state": 42
+            }
+        },
+        "Agglomerative Hierarchical Clustering": {
+            "algorithm": "AgglomerativeClustering",
+            "parameters": {
+                "n_clusters": 3,
+                "linkage": "average",
+                "memory": "n_jobs=-1"
+            }
+        },
+        "DBSCAN": {
+            "algorithm": "DBSCAN",
+            "parameters": {
+                "eps": 0.5,
+                "min_samples": 5
+            }
+        },
+        "OPTICS": {
+            "algorithm": "OPTICS",
+            "parameters": {
+                "min_samples": 5,
+                "xi": 0.05,
+                "min_cluster_size": 0.05
+            }
+        },
+        "Mean Shift": {
+            "algorithm": "MeanShift",
+            "parameters": {
+                "bandwidth": 1.0,
+                "bin_seeding": 0
+            }
+        }
+    },
+    "metrics": {
+        "Silhouette Score": "silhouette_score",
+        "Davies-Bouldin Score": "davies_bouldin_score",
+        "Calinski-Harabasz Score": "calinski_harabasz_score"
+    },
+    "plots": {
+        "dir": "ml_fundamentals/chapter3/plots",
+        "names": {
+            "elbow_method": "elbow_method",
+            "silhouette_scores": "silhouette_scores",
+            "dendrogram": "dendrogram",
+            "cluster_centers": "cluster_centers",
+            "cluster_distribution": "cluster_distribution"
+        }
+    },
+    "saved_models": {
+        "dir": "ml_fundamentals/chapter3/models",
+        "names": {
+            "K-Means Clustering": "kmeans.pkl",
+            "Mini-Batch K-Means Clustering": "minibatch_kmeans.pkl",
+            "Agglomerative Hierarchical Clustering": "agglomerative_clustering.pkl",
+            "DBSCAN": "dbscan.pkl",
+            "OPTICS": "optics.pkl",
+            "Mean Shift": "mean_shift.pkl"
+        }
+    }
+}

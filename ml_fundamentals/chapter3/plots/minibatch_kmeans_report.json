@@ -1,0 +1,9 @@
+{
+    "n_clusters": 3,
+    "batch_size": 100,
+    "inertia": 1429.9693,
+    "silhouette_score": 0.3489,
+    "davies_bouldin": 1.455,
+    "calinski_harabasz": 67.0525,
+    "n_iterations": 300
+}

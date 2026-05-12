@@ -1,0 +1,8 @@
+{
+    "n_clusters": 3,
+    "inertia": 1429.6696,
+    "silhouette_score": 0.3459,
+    "davies_bouldin": 1.4542,
+    "calinski_harabasz": 67.0782,
+    "n_iterations": 6
+}

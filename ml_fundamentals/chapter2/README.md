@@ -290,7 +290,7 @@ Step 4: Experiment!
 
 Once you're comfortable with classification, move on to:
 
-**→ Chapter 3: Clustering** *(coming soon)*
+**→ Chapter 3: Clustering**
 
 You'll learn how to find patterns in data when you *don't* have any labels (unsupervised learning).
 

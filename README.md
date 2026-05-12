@@ -18,7 +18,7 @@
 
 | 📚 Chapters | 🧠 Tracks | 🔢 Algorithms |
 |:-----------:|:---------:|:-------------:|
-| **5+** | **2** | **10+** |
+| **5+** | **2** | **14+** |
 
 <br/>
 
@@ -67,7 +67,7 @@ Classical machine learning — the building blocks of all AI.
 |---|---|---|
 | **Chapter 1** | [📈 Regression](ml_fundamentals/chapter1/README.md) | Predict continuous values (house prices, life expectancy) |
 | **Chapter 2** | [🏷️ Classification](ml_fundamentals/chapter2/README.md) | Categorize data (spam detection, disease diagnosis) |
-| **Chapter 3** | 🔵 Clustering *(coming soon)* | Group unlabeled data (customer segmentation) |
+| **Chapter 3** | [🔍 Clustering](ml_fundamentals/chapter3/README.md) | Group unlabeled data (customer segmentation) |
 
 ### 🧠 Track 2: Deep Learning (`deep_learning/`)
 
@@ -147,7 +147,7 @@ Hands-on-AI-Tutorial/
 │   │   ├── src/                    ← From-scratch Python implementations
 │   │   └── README.md               ← Chapter guide
 │   ├── chapter2/                   ← Classification (✅ Active)
-│   └── chapter3/                   ← Clustering (🔜 Coming soon)
+│   └── chapter3/                   ← Clustering (✅ Active)
 │
 └── deep_learning/                  ← Deep Learning track
     ├── chapter4/                   ← NLP (🔜 Coming soon)
@@ -170,7 +170,10 @@ Hands-on-AI-Tutorial/
    ├── Explore: notebooks/Classification.ipynb
    └── Run: src/ scripts directly
 
-3. Chapter 3 — Clustering (coming soon)
+3. Chapter 3 — Clustering
+   ├── Read: ml_fundamentals/chapter3/README.md
+   ├── Explore: notebooks/Clustering.ipynb
+   └── Run: src/ scripts directly
 4. Chapter 4 — NLP (coming soon)
 5. Chapter 5 — Computer Vision (coming soon)
 ```
