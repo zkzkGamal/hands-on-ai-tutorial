@@ -14,14 +14,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square)]()
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=flat-square)]()
 
-<br/>
-
-| 📚 Chapters | 🧠 Tracks | 🔢 Algorithms |
-|:-----------:|:---------:|:-------------:|
-| **5+** | **2** | **14+** |
-
-<br/>
-
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -177,6 +169,19 @@ Hands-on-AI-Tutorial/
 4. Chapter 4 — NLP (coming soon)
 5. Chapter 5 — Computer Vision (coming soon)
 ```
+
+---
+
+## 🔗 Related Repositories
+
+Explore more tutorials and tools by the same author:
+
+| Repository | Description |
+|---|---|
+| 🤖 [**Agentic AI Tutorial**](https://github.com/zkzkGamal/Agentic-AI-Tutorial) | Learn how to build autonomous AI agents — from single-agent systems to multi-agent pipelines |
+| ⚡ [**Concurrent LLM Serving**](https://github.com/zkzkGamal/concurrent-llm-serving) | Hands-on guide to serving Large Language Models efficiently at scale with concurrency |
+
+> These repositories complement this tutorial — once you've mastered the fundamentals here, explore agents and production LLM deployment next!
 
 ---
 
